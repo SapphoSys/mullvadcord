@@ -66,3 +66,8 @@ If you don't want this behavior, go to your server -> Settings -> Integrations, 
   - Go to your application's page in the [Discord Developer Portal](https://discord.com/developers/applications), and paste the full `.workers.dev` URL that the `pnpm push` command returned in the "Interactions Endpoint URL" input field.
 
 That's it! Your bot is now up and running.
+
+## License
+This package is licensed under the [MIT](LICENSE) license.
+
+© 2025 Sapphic Angels.
