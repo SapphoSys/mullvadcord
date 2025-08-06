@@ -14,6 +14,11 @@ This project assumes the following:
 - You have a [Tailscale account](https://tailscale.com) (registering one is free!)
 - You have a subscription for the [Tailscale Mullvad VPN add-on](https://login.tailscale.com/admin/settings/general/mullvad)
 
+## Commands
+- `/mullvad-add device:<device>`: Adds a device from your tailnet to the Tailscale Mullvad VPN add-on. The device names and IP addresses have autocomplete.
+- `/mullvad-remove device:<device>`: Removes a device from your tailnet to Tailscale Mullvad VPN add-on. The device names and IP addresses have autocomplete.
+- `/mullvad-list`: Lists all devices which have the `mullvad` node attribute.
+
 ## Setting up the project
 ### 0. Initial setup
 - Rename the `.dev.vars.example` file to `.dev.vars`.
