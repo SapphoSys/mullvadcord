@@ -68,6 +68,6 @@ If you don't want this behavior, go to your server -> Settings -> Integrations, 
 That's it! Your bot is now up and running.
 
 ## License
-This package is licensed under the [MIT](LICENSE) license.
+This repository is licensed under the [MIT](LICENSE) license.
 
 © 2025 Sapphic Angels.
