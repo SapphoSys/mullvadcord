@@ -1,0 +1,20 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "mullvadcord",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-08-03",
+	"compatibility_flags": ["nodejs_compat"],
+	"observability": {
+		"enabled": true
+	},
+	"kv_namespaces": [
+		{
+			"binding": "TAILSCALE_KV",
+			"id": "65be8570bad14ea2bed4ab9b57cf3dd9"
+		}
+	]
+}

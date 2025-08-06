@@ -1,0 +1,40 @@
+{
+	"compilerOptions": {
+		/* Visit https://aka.ms/tsconfig.json to read more about this file */
+		/* Language and Environment */
+		"target": "es2024",
+		"lib": ["es2024"],
+		"jsx": "react",
+		/* Modules */
+		"module": "es2022",
+		"moduleResolution": "Bundler",
+		"types": ["./worker-configuration.d.ts", "node"],
+		"resolveJsonModule": true,
+		/* JavaScript Support */
+		"allowJs": true,
+		"checkJs": false,
+		/* Emit */
+		"outDir": "./dist",
+		/* Interop Constraints */
+		"isolatedModules": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		/* Type Checking */
+		"strict": true,
+		/* Completeness */
+		"skipLibCheck": true,
+		/* tsc Compile */
+		//"allowImportingTsExtensions": true,
+		//"rewriteRelativeImportExtensions": true,
+		"verbatimModuleSyntax": true,
+		/* Aliases */
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["src/*"],
+			"$handlers/*": ["src/handlers/*"],
+			"$utils/*": ["src/utils/*"]
+		}
+	},
+	"exclude": ["test"],
+	"include": ["worker-configuration.d.ts", "src/**/*.ts"]
+}

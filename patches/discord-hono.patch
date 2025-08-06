@@ -1,0 +1,13 @@
+diff --git a/dist/index.js b/dist/index.js
+index ee7bfef5bb857aabebd3d01ccd35f31226624b49..d0c9e0ad388348c342b6de97cd1df22463b43633 100644
+--- a/dist/index.js
++++ b/dist/index.js
+@@ -1321,7 +1321,7 @@ var DiscordHono = class {
+   fetch = async (request, env, executionCtx) => {
+     switch (request.method) {
+       case "GET":
+-        return new Response("Operational\u{1F525}");
++        return new Response("Hello world :)");
+       case "POST": {
+         const discord = this.#discord(env);
+         if (!discord.PUBLIC_KEY) throw newError("DiscordHono", "DISCORD_PUBLIC_KEY");
